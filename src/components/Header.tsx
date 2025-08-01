@@ -1,4 +1,6 @@
 'use client'
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header() {
   return (
@@ -6,18 +8,20 @@ export default function Header() {
       <div className="container">
         <div className="header-wrapper">
           <div className="logo">
-            <a href="/">
-              <img src="/assets/images/first-aid-mc.png" alt="first-aid-mc-logo" />
-            </a>
+            <Link href="/">
+              <Image src="/assets/images/first-aid-mc.png" alt="first-aid-mc-logo" width={150} height={50} />
+            </Link>
           </div>
 
           <div className="nav-wrapper">
             <div className="navigation">
               <ul className="nav-list">
-                <li className="nav-list-item"><a href="/about-us">About Us</a></li>
+                <li className="nav-list-item">
+                  <Link href="/about-us">About Us</Link>
+                </li>
 
                 <li className="nav-list-item">
-                  <a href="/our-courses">Our Courses</a>
+                  <Link href="/our-courses">Our Courses</Link>
                   <span className="sub-nav-toggler">
                     <i className="bi bi-caret-down-fill"></i>
                   </span>
@@ -29,7 +33,7 @@ export default function Header() {
                 </li>
 
                 <li className="nav-list-item">
-                  <a href="/upcoming-courses">Upcoming Course</a>
+                  <Link href="/upcoming-courses">Upcoming Course</Link>
                   <span className="sub-nav-toggler">
                     <i className="bi bi-caret-down-fill"></i>
                   </span>
@@ -40,14 +44,18 @@ export default function Header() {
                   </ul>
                 </li>
 
-                <li className="nav-list-item"><a href="/faq">FAQ</a></li>
-                <li className="nav-list-item"><a href="/contact">Contact</a></li>
+                <li className="nav-list-item">
+                  <Link href="/faq">FAQ</Link>
+                </li>
+                <li className="nav-list-item">
+                  <Link href="/contact">Contact</Link>
+                </li>
               </ul>
 
               <div className="header-cta">
-                <a href="/login" className="login-btn">Login</a>
+                <Link href="/login" className="login-btn">Login</Link>
                 <span>Or</span>
-                <a href="/subscribe" className="subscribe-btn">Subscribe</a>
+                <Link href="/subscribe" className="subscribe-btn">Subscribe</Link>
               </div>
             </div>
           </div>
@@ -61,5 +69,5 @@ export default function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }

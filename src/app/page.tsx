@@ -234,7 +234,7 @@ export default function Home() {
 <section className="feedback-section py-5 mt-5">{
   <div className="container">
     <div className="row gy-3 pt-4">
-      {/* Left Image Column */}
+      
       <div className="col-xl-6 col-lg-6 col-md-12 col-12">
         <div className="image">
           <div className="image-box success-rate satisfied-students">
@@ -271,11 +271,11 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Right Slider Column */}
+      
       <div className="col-xl-6 col-lg-6 col-md-12 col-12">
         <h2>Valuable Feedback from Our Students</h2>
         <div className="feedback-slider owl-carousel owl-theme">
-          {/* Feedback Item 1 */}
+         
           <div className="item">
             <div className="feedback-box">
               <div className="profile-image">
@@ -299,7 +299,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Feedback Item 2 */}
+          
           <div className="item">
             <div className="feedback-box">
               <div className="profile-image">
@@ -323,7 +323,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Feedback Item 3 */}
+         
           <div className="item">
             <div className="feedback-box">
               <div className="profile-image">
