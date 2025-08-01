@@ -97,7 +97,7 @@ export default function Home() {
     <h2 className="text-center">Most Popular Courses</h2>
 
     <div className="custom-card-wrapper pt-5 mt-5">
-      {/* CARD 1 */}
+  
       <div className="custom-card card-shadow">
         <h3>
           5 months <br /> Extensive MCQ Course
@@ -124,7 +124,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* CARD 2 */}
+      
       <div className="custom-card card-shadow">
         <h3>
           5 months <br /> Extensive Clinical Course
@@ -151,7 +151,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* CARD 3 */}
+    
       <div className="custom-card card-shadow">
         <h3>Clinical Mock Test</h3>
         <div className="price">
@@ -176,7 +176,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* CARD 4 */}
+ 
       <div className="custom-card card-shadow">
         <h3>
           CLINICAL Physical <br /> Examination Course
@@ -203,7 +203,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* CARD 5 */}
+  
       <div className="custom-card card-shadow">
         <h3>FIRST AID PESCI</h3>
         <div className="price">
@@ -295,8 +295,9 @@ export default function Home() {
               </div>
               <div className="feedback-text">
                 <p>
-                  "The course exceeded my expectations, and the support from instructors made all the difference."
+                  &quot;The course exceeded my expectations, and the support from instructors made all the difference.&quot;
                 </p>
+
               </div>
               <span className="feedback-profile-name">Joel</span>
             </div>
@@ -319,8 +320,9 @@ export default function Home() {
               </div>
               <div className="feedback-text">
                 <p>
-                  "The course exceeded my expectations, and the support from instructors made all the difference."
-                </p>
+  &quot;The course exceeded my expectations, and the support from instructors made all the difference.&quot;
+</p>
+
               </div>
               <span className="feedback-profile-name">Joel</span>
             </div>
@@ -343,8 +345,9 @@ export default function Home() {
               </div>
               <div className="feedback-text">
                 <p>
-                  "The course exceeded my expectations, and the support from instructors made all the difference."
-                </p>
+  &quot;The course exceeded my expectations, and the support from instructors made all the difference.&quot;
+</p>
+
               </div>
               <span className="feedback-profile-name">Joel</span>
             </div>
@@ -361,7 +364,7 @@ export default function Home() {
     <h2 className="text-center">Upcoming Course</h2>
 
     <div className="upcoming-course-slider owl-carousel owl-theme">
-      {/* Course Cards */}
+      
       {[
         {
           title: "CLINICAL Physical Examination Course",
