@@ -2,6 +2,7 @@
 
 'use client';
 import React from 'react';
+import Image from 'next/image'
 export default function Home() {
   return (
     <>
@@ -60,11 +61,12 @@ export default function Home() {
       <div className="col-xl-6 col-lg-6 col-md-12 col-12">
         <div className="text">
           <h2>Who We Are</h2>
-          <p>
-            First AID AMC is a Registered AMC MCQ, Clinical and PESCI Preparatory Course. We have been helping IMG doctors for quite a few years to achieve their dreams and goals with an amazing Success rate!!
-            We promise you that if you follow our guidelines, classes and Course materials there is more than 90% chances of Success in your exam. In the unlikely 10% cases, we will continue our support until you pass the exam.
-            When you are under us, we take your responsibility fully and effectively.
-          </p>
+         <p>
+          First AID AMC is a Registered AMC MCQ, Clinical and PESCI Preparatory Course. We have been helping IMG doctors for quite a few years to achieve their dreams and goals with an amazing success rate!
+          We promise you that if you follow our guidelines, classes, and course materials, there is more than 90% chance of success in your exam. In the unlikely 10% of cases, we will continue our support until you pass the exam.
+          When you are under us, we take your responsibility fully and effectively.
+        </p>
+
         </div>
 
         <div className="success-count-wrapper">
@@ -267,7 +269,8 @@ export default function Home() {
             <p>Success Rate</p>
           </div>
 
-          <img src="/assets/images/feedback-image.png" alt="feedback image" />
+          <Image src="/assets/images/feedback-image.png" alt="feedback image" />
+          
         </div>
       </div>
 
