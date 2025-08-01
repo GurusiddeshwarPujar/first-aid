@@ -6,13 +6,15 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <>
-      {/* Paste your HTML body sections here inside <main> */}
-     <section className="first-aid-medicine">{
+     
+     <section className="first-aid-medicine">
   <div className="container">
     <div className="row gy-4">
       <div className="col-md-6 col-12 text-btn">
         <h1>FIRST AID MEDICINE</h1>
-        <span>Highest rated Course for General Practitioners, AMC MCQ, CLINICAL and PESCI exams</span>
+        <span>
+          Highest rated Course for General Practitioners, AMC MCQ, CLINICAL and PESCI exams
+        </span>
         <a href="#" className="primary-btn">Join Our Comprehensive Course</a>
       </div>
 
@@ -22,7 +24,7 @@ export default function Home() {
             <span className="heading">FirstAidMedicine</span>
             <p>
               offers the most successful online courses for doctors working as a general practitioner in Australia as
-              well as appearing AMC MCQ, CLINICAL & PESCI exams.
+              well as appearing AMC MCQ, CLINICAL &amp; PESCI exams.
             </p>
           </div>
 
@@ -38,10 +40,10 @@ export default function Home() {
       </div>
     </div>
   </div>
-}
 </section>
 
-<section className="who-we-are py-5 mt-3">{
+
+<section className="who-we-are py-5 mt-3">
   <div className="container">
     <div className="row image-text-wrapper gy-3">
       <div className="col-xl-6 col-lg-6 col-md-12 col-12">
@@ -90,9 +92,9 @@ export default function Home() {
       </div>
     </div>
   </div>
-  }
+  
 </section>
-<section className="popular-courses py-5">{
+<section className="popular-courses py-5">
   <div className="container">
     <h2 className="text-center">Most Popular Courses</h2>
 
@@ -229,11 +231,11 @@ export default function Home() {
       </div>
     </div>
   </div>
-  }
+  
 </section>
 
 
-<section className="feedback-section py-5 mt-5">{
+<section className="feedback-section py-5 mt-5">
   <div className="container">
     <div className="row gy-3 pt-4">
       
@@ -356,10 +358,10 @@ export default function Home() {
       </div>
     </div>
   </div>
-}</section>
+</section>
 
 <section className="upcoming-course pb-4 mb-5">
-  {
+  
   <div className="container">
     <h2 className="text-center">Upcoming Course</h2>
 
@@ -429,7 +431,7 @@ export default function Home() {
       ))}
     </div>
   </div>
-}
+
 </section>
 
 
@@ -522,7 +524,7 @@ export default function Home() {
   </div>
   <div className="container">
     <div className="row gy-5">
-      {/* Left Side Content */}
+     
       <div className="col-lg-6 col-md-6 col-12 position-relative">
         <div className="content-wrapper">
           <h2>Smart Learning for Smarter Results!</h2>
@@ -540,7 +542,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Right Side Contact Form */}
       <div className="col-lg-6 col-md-6 col-12">
         <div className="form-wrapper">
           <h2 className="text-center pb-3">Contact Us</h2>
@@ -584,12 +585,12 @@ export default function Home() {
 
 
 <section className="faqs-section py-5 my-5">
-  {
+  
   <div className="container">
     <h2 className="text-center pb-5">FAQs</h2>
 
     <div className="faqs-box-wrapper">
-      {/* Repeatable FAQ Box */}
+ 
       {Array(8)
         .fill(0)
         .map((_, i) => (
@@ -607,7 +608,7 @@ export default function Home() {
         ))}
     </div>
   </div>
-  }
+  
 </section>
 
     
